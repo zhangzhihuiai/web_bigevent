@@ -31,9 +31,9 @@ $(function() {
                 // dataType: 'dataType',
                 success: function(res) {
                     if (res.status !== 0) {
-                        return console.log(res.message);
+
                     } else {
-                        return console.log('注册成功');
+
                     }
                 }
 
